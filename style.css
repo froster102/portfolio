@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+
+.logo {
+    font-size: 4.5rem;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+
+.logo:hover {
+    text-shadow: 0 0 20px #797575;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.nav-link:hover {
+    color: #DC3545;
+}
+
+.bg-dark-nav {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(20px);
+}
+
+.headline-home {
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+@media screen and (max-width: 992px) {
+    .headline-home {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headline-home {
+        font-size: 3rem;
+    }
+}
+
+.sub-headline {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+    .sub-headline {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sub-headline {
+        font-size: 2rem;
+    }
+}
+
+.animation-section {
+    position: relative;
+}
+
+.animate-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    border-left: 1px solid #DC3545;
+    animation: typing 5s steps(13) infinite;   
+     
+}
+
+@keyframes typing {
+    40% , 60% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+
+.typography {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+    .typography {
+        font-size: 1.5rem;
+    }
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    text-decoration: none;
+    border: 0.2rem solid #DC3545;
+    color: #DC3545;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.social-icons a {
+    transition: 0.5s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.3) translateY(-3px);
+}
+
+.btn {
+    transition: 0.4s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.section {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.content-headline {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 992px) {
+    .content-headline {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-headline {
+        font-size: 4rem;
+    }
+}
+
+.section-bg-dark {
+    background-color: rgb(21 22 22);
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.service-card {
+    transition: 0.5s ease;
+}
+
+.service-card:hover {
+    background-color: transparent !important;
+    color: #fff;
+}
+
+.skill-card {
+    background-color: rgb(68 18 23);
+}
+
+.skill-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.skill-box {
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.skill-box:hover {
+    box-shadow: 0 0 20px #DC3545;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img img {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+
+.education-card .row-cols {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.education-card .card {
+    margin-top: 20px;
+    background-color: #DC3545;
+    transition: 0.5s ease;
+    border-radius: 2rem;
+    background-color: #DC3545;
+    transition: 0.5s ease;
+}
+
+.education-card .card:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.border-line {
+    padding-left: 3rem;
+    border-left: 2px solid #DC3545;
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #DC3545;
+    top: 0;
+    left: -11px;
+    box-shadow: 0 0 20px #DC3545;
+}
+
+.form-label {
+    font-size: 1.5rem;
+}
+
+
+
+.form-control{
+    background-color: transparent;
+    border: 1px solid #DC3545;
+    color: #fff;
+    width: 500px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .form-control {
+        width: 100%;
+    }
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border: 1px solid #DC3545;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.textarea {
+    height: 300px;
+}
+
+.send-btn {
+    background-color: transparent;
+    transition: 0.5s ease;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.send-btn:hover {
+    background-color: #DC3545;
+    box-shadow: 0 0 20px #DC3545;
+}
+
+.footer-icon-container a {
+    text-decoration: none;
+    display: inline-flex;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.social-icons-footer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    text-decoration: none;
+    border: 0.2rem solid #000000;
+    color: #000000;
+    font-size: 2rem;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.social-icons-footer a:hover {
+    transform: scale(1.3) translateY(-5px);
+}
+
+.footer-link-container a {
+    text-decoration: none;
+    color: #1a1717;
+    font-size: 1.8rem;
+    transition: 0.5s ease;
+}
+
+.footer-link-container a:hover {
+    text-decoration: underline;
+}

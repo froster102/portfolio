@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/489234fefa.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+    </script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+</head>
+
+<body class="bg-black">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark-nav">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <h1 class="text-danger logo">Alan</h1>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="nav">
+                <ul class="navbar-nav" justify-content-end>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="container-md d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 mb-5">
+            <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center">
+                <img src="./src/IMG_20240408_090628.jpg" alt="" class="img-fluid rounded-5 flex-shrink-1"
+                    style=" width:40%">
+                <div class="text-white d-flex flex-column text-center text-md-start mt-3 mx-5">
+                    <h1 class="headline-home">Hi, It's <span class="text-danger">Alan</span></>
+                    </h1>
+                    <h2 class="sub-headline">I'm a <span class="animation-section"><span
+                                class="text-danger animate-text">Web Developer</span></span></h2>
+                    <p class="typography" style="max-width: 576px;">Passionate Devloper, dedicated to
+                        creativity and innovation. Committed to excellence, eager to collaborate and make a meaningful
+                        impact.
+                    </p>
+                    <div class="social-icons mb-3 g-3">
+                        <a href="https://github.com/froster102" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://wa.me/7907718488" target="_blank" class="mx-2"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <button
+                        class="btn btn-lg btn-outline-danger align-self-md-start align-self-center rounded-pill">Hire
+                        Me</button>
+                </div>
+            </div>l
+        </div>
+    </section>
+
+    <section class="section section-bg-dark" id="services">
+        <div class="container">
+            <div class="content">
+                <h1 class="content-headline text-center text-light">
+                    Services
+                </h1>
+            </div>
+            <div class="row justify-content-center flex-column flex-lg-row align-items-center gy-4">
+                <div class="col col-lg-3">
+                    <div class="card service-card rounded-5 bg-danger p-3 border-danger">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>UI/UX Development</h2>
+                            </div>
+                            <div class="card-text">
+                                Crafting seamless user experiences with intuitive designs. Passionate about optimizing
+                                usability and enhancing user satisfaction through innovative UI/UX solutions. Eager to
+                                transform ideas into engaging digital experiences.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3">
+                    <div class="card service-card rounded-5 bg-danger p-3 border-danger">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h2>Frontend Development</h2>
+                            </div>
+                            <div class="card-text">
+                                Creating responsive and dynamic web interfaces with modern frontend technologies.
+                                Dedicated to crafting visually appealing and high-performance websites that deliver
+                                exceptional user experiences.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <h1 class="content-headline text-center text-light">Skills</h1>
+            <div class="content-container d-flex justify-content-center">
+                <div class="skill-card p-5 rounded-4 mt-5">
+                    <div class="row row-cols-2 row-cols-md-4 g-3">
+                        <div class="col">
+                            <div class="card skill-box bg-black px-5 py-2 rounded-4">
+                                <div class="card-img">
+                                    <img src="./src/icons8-html-logo-48.png" alt="">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-title skill-card-title text-danger text-center mt-3">
+                                        Html
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card skill-box bg-black px-5 py-2 rounded-4">
+                                <div class="card-img">
+                                    <img src="./src/icons8-css-logo-48.png" alt="">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-title skill-card-title text-danger text-center mt-3">
+                                        Css
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card skill-box bg-black px-5 py-2 rounded-4">
+                                <div class="card-img">
+                                    <img src="./src/icons8-javascript-48.png" alt="">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-title skill-card-title text-danger text-center mt-3">
+                                        Javascript
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card skill-box bg-black px-5 py-2 rounded-4">
+                                <div class="card-img">
+                                    <img src="./src/icons8-bootstrap-48.png" alt="">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-title skill-card-title text-danger text-center mt-3">
+                                        Bootstrap
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-2 row-cols-md-4 g-3 mt-0">
+                        <div class="col">
+                            <div class="card skill-box bg-black px-5 py-2 rounded-4">
+                                <div class="card-img">
+                                    <img src="./src/icons8-python-48.png" alt="">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-title skill-card-title text-danger text-center mt-3">
+                                        Python
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card skill-box bg-black px-5 py-2 rounded-4">
+                                <div class="card-img">
+                                    <img src="./src/icons8-flask-64.png" alt="">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-title skill-card-title text-danger text-center mt-3">
+                                        Flask
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card skill-box bg-black px-5 py-2 rounded-4">
+                                <div class="card-img">
+                                    <img src="./src/SQLite370.svg.png" alt="">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-title skill-card-title text-danger text-center mt-3">
+                                        SQlite
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card skill-box bg-black px-5 py-2 rounded-4">
+                                <div class="card-img">
+                                    <img src="./src/react.svg" alt="">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="card-title skill-card-title text-danger text-center mt-3">
+                                        React
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-bg-dark" id="education">
+        <div class="container">
+            <div class="content-headline text-center text-light">
+                Education
+            </div>
+            <div class="education-card">
+                <div class="row-cols">
+                    <div class="col col-md-5">
+                        <div class="border-line">
+                            <div class="dot"></div>
+                            <div class="card border-danger">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        High School
+                                    </div>
+                                    <div class="card-text">
+                                        Graduated from high school with a focus on computer science. Passionate about
+                                        coding, problem-solving, and technology. Eager to apply my knowledge and skills
+                                        to create innovative solutions in the digital world.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-cols">
+                    <div class="col col-md-5">
+                        <div class="border-line">
+                            <div class="dot"></div>
+                            <div class="card border-danger">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        CS50 Course Completion
+                                    </div>
+                                    <div class="card-text">
+                                        Completed CS50, Harvard's renowned computer science online course. Developed
+                                        strong
+                                        problem-solving skills and gained deep understanding of algorithms and
+                                        programming concepts. Excited to apply newfound knowledge to real-world
+                                        projects.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-cols">
+                    <div class="col col-md-5">
+                        <div class="border-line">
+                            <div class="dot"></div>
+                            <div class="card border-danger">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Web Development Bootcamp
+                                    </div>
+                                    <div class="card-text">
+                                        "Participated in Brototype bootcamp, delving into advanced software development
+                                        concepts. Strengthened coding skills, collaborated on projects, and honed
+                                        problem-solving abilities in a dynamic, immersive learning environment.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="content-headline text-center text-light">
+                Contact <span class="text-danger">Me</span>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST"
+                class=" p-5 d-flex flex-column justify-content-center align-items-center" id="form">
+                <input type="hidden" name="access_key" value="000606d5-7022-4df8-a113-9944cee9ba26">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label text-danger">Name</label>
+                    <input type="text" name="name" class="form-control form-control-lg" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label text-danger">Email</label>
+                    <input type="email" name="name" class="form-control  form-control-lg" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label text-danger">Phone Number</label>
+                    <input type="number" class="form-control  form-control-lg" id="phone-number">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label text-danger">Subject</label>
+                    <input type="text" class="form-control  form-control-lg" id="subject">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label text-danger">Your message</label>
+                    <textarea name="name" class="form-control textarea" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger rounded-pill mt-5 send-btn border-danger text-danger">Send
+                    Message</button>
+                <div id="result"></div>
+            </form>
+            <script>
+                // var send = function () {
+                //     Email.send({
+                //         Host: "smtp.elasticemail.com",
+                //         Username: "miconev833@abnovel.com",
+                //         Password: "0E1C24443E53DADBCBDBE3EAEC258D2082D2",
+                //         To: 'alanjohnson8k@gmail.com',
+                //         From: "miconev833@abnovel.com",
+                //         Subject: "This is the subject",
+                //         Body: "And this is the body"
+                //     }).then(
+                //         message => alert(message)
+                //     );
+                // }
+                // Email.send({
+                //     Host: "smtp.elasticemail.com",
+                //     Username: "erwin00@elastic.com",
+                //     Password: 'E99B4EB57476159819896B604766645B482F',
+                //     To: 'alanjohnson8k@gmail.com',
+                //     From: "erwin001james@gmail.com",
+                //     Subject: "This is the subject",
+                //     Body: "And this is the body"
+                // }).then(
+                //     message => alert(message)
+                // );
+                // E99B4EB57476159819896B604766645B482F
+                // erwin00@elastic.com
+                // 2525
+            </script>
+        </div>
+    </section>
+
+    <footer class="section bg-danger">
+        <div class="container">
+            <div class="social-icons-footer d-flex gap-4 align-items-center justify-content-center">
+                <a href="https://github.com/froster102" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://wa.me/7907718488" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="footer-link-container d-flex align-items-center justify-content-center gap-5 mt-5">
+                <div class="footer-link">
+                    <a href="">FAQ</a>
+                </div>
+                <div class="footer-link">
+                    <a href="">Service</a>
+                </div>
+                <div class="footer-link">
+                    <a href="">About</a>
+                </div>
+                <div class="footer-link">
+                    <a href="">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
